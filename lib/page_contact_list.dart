@@ -23,8 +23,7 @@ class _ConTactListPageState extends State<ConTactListPage> {
         await ContactsService.getContacts(withThumbnails: false);
     setState(() {
       _contacts = contacts;
-    }
-    );
+    });
   }
   @override
   Widget build(BuildContext context) {
