@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:contacts_service/contacts_service.dart';
 
 class ContactDetailPage extends StatelessWidget {
+
   static const String routeName = '/contact';
 
   ContactDetailPage(this._contact);
