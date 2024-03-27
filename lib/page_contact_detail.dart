@@ -12,7 +12,8 @@ class ContactDetailPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text(_contact.displayName ?? "")),
+      appBar: AppBar(
+          title: Text(_contact.displayName ?? "")),
       body: ListView(
         children: <Widget>[
           ListTile(
