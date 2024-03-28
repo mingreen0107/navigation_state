@@ -29,8 +29,7 @@ class ContactDetailPage extends StatelessWidget {
             title: Text('Emails'),
             trailing: Text(
               _contact.emails.isNotEmpty ? _contact.emails.first.value : "")
-            ),
-          )
+            ),)
         ],
       ),
     );
